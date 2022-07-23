@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './footer.module.css'
 import Footerleft from './Footerleft'
-import Footermiddle from './footermiddle'
+ 
 
 const Footer = (props) => {
   return (
@@ -18,9 +18,7 @@ const Footer = (props) => {
       <div>
       <Footerleft />
       </div>
-        <div>
-        <Footermiddle />
-        </div>
+      
          
     </div> 
        
