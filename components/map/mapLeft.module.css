@@ -1,0 +1,35 @@
+.mapLeftMain {
+    background-color: rgb(233, 20, 91);
+}
+
+.mapLeftMainTop {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.mapLeftMainTopCon {
+    border-bottom: 1px dotted;
+}
+
+.mapLeftMainTopCon  h3 {
+    color: white;
+}
+.mapLeftMainTopCon  p {
+    color: rgb(226, 226, 226);
+}
+
+@media only screen and (max-width: 600px) {
+    .mapLeftMain {
+        background-color: rgb(233, 20, 91);
+        width: 100%;
+    }
+    
+    .mapLeftMainTop {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}

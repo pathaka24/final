@@ -1,0 +1,57 @@
+.formMain {
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+     padding: 2rem;
+}
+
+.formMainCenter {
+    display: flex;
+     justify-content: center;
+     padding-bottom: 1rem;
+}
+.formMainLeft {
+    display: flex;
+    flex-direction: column;
+    
+}
+.formMainLeft input {
+    height: 50px;
+    width: 200px;
+    margin: 1rem;
+
+}
+.selectArea {
+    height: 50px;
+    width: 200px;
+   margin-left: 1rem;
+}
+.formMainRight  {
+    display: flex;
+    flex-direction: column;
+}
+.formMainRight input {
+    height: 50px;
+    width: 200px;
+    margin: 1rem;
+}
+.testArea {
+    height: 130px;
+    width: 200px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .formMain {
+        width: 100%;
+    }
+    .formMainCenter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

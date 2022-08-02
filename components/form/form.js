@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './form.module.css'
 import FormCon from './formCon'
 import FormInput from './formInput'
+import Newform from '../form1/newform'
 
 const Form = (props) => {
   return (
@@ -13,7 +14,7 @@ const Form = (props) => {
     }}>
         <div className={styles.formMain}>
             <FormCon />
-            <FormInput />
+            <Newform />
         </div>
     </div>
   )

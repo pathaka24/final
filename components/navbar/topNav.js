@@ -16,10 +16,17 @@ const TopNav = () => {
         <div className={styles.topNavRight}>
             <div className={styles.topNavIcons}> 
                  <Link href='/location/location'> 
-                     <AddLocationIcon  className={styles.topNavIcon} />
+                       <a>
+                             <AddLocationIcon  className={styles.topNavIcon} />
+                       </a>
+                    
+                 </Link>
+                 <Link href='/location/location'>
+                       <a>
+                       <p className={styles.topNavText}>{add}</p>
+                       </a>
                  </Link>
                  
-                 <p className={styles.topNavText}>{add}</p>
             </div>
             <div className={styles.topNavIcons}>
             <Link href='/location/location'> 

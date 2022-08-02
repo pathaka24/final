@@ -16,13 +16,14 @@ const NavHapler = (props) => {
         
        
       
-         <div className={styles.helperText}>
+         <div >
          <Link href={props.call ? `tel:8882655512`:`mailto:info@example.com?subject=subject&cc=cc@example.com`}> 
              <a>     
-             <p>{props.des}</p>
-              <h2>{props.contact}</h2>
+              <div className={styles.helperText}>
+                  <p>{props.des}</p>
+                   <h2>{props.contact}</h2>
+              </div>  
              </a>
-             
          </Link>  
          </div>
     </div>

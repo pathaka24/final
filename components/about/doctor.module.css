@@ -1,0 +1,31 @@
+.doctorMain {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.doctorMainLeft {
+    width: 40%;
+}
+
+.doctorMainRight {
+    width: 30%;
+     padding: 1rem;
+}
+
+.doctorMainRight div h3 {
+     color: rgb(16, 104, 204);
+}
+
+.doctorMainRight div p {
+    color: rgb(126, 126, 126);
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.doctorMainBot {
+    width: 30%;
+    padding:1rem;
+}
+
+ 

@@ -3,15 +3,15 @@
     padding: 5px;
 }
  
-.helperText p {
+.helperText  p {
    font-weight: 500;
    color: rgb(165, 165, 165);
 }
 
-.helperText h2{
+.helperText  h2{
     font-weight: 600;
     font-size: 1.4rem;
-    padding-top: 5px;
+    
     cursor: pointer;
 }
 

@@ -9,7 +9,7 @@ const NavMain = () => {
     <div className={styles.navMain}>
         <TopNav />
         <NavMiddle />
-        <hr />
+        <hr className={styles.line} />
         <BottomNam />
     </div>
   )

@@ -1,0 +1,12 @@
+.terepistsHead {
+    text-align: center;
+    font-weight: 600;
+    color: brown;
+}
+
+.terepists {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}

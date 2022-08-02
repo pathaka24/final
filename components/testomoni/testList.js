@@ -12,7 +12,7 @@ import { red } from '@mui/material/colors';
  
  
 
-const TestList = () => {
+const TestList = (props) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -28,20 +28,18 @@ const TestList = () => {
           </Avatar>
         }
          
-        title="Shrimp and Chorizo Paella"
-        subheader="problem of"
+        title={props.name}
+        subheader= {props.tretMent}
       />
       <CardMedia
         component="img"
         height="300"
-        image="/assets/banner.jpg"
-        alt="Paella dish"
+        image={props.imgUrl}
+        alt="healing hands"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+            {props.issue}
         </Typography>
       </CardContent>
       
